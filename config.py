@@ -28,8 +28,8 @@ class DEV:
     # YOU CAN ADD SUDO USING /addsudo
 
 class STUFF:
-    ALIVE_PIC = os.getenv("ALIVE_PIC", "")
-    HELP_PIC = os. getenv("HELP_PIC", "")
-    START_PIC = os. getenv("START_PIC", "")
+    ALIVE_PIC = os.getenv("ALIVE_PIC", "https://graph.org/file/8fd33da8e4e7f6512ced5.jpg")
+    HELP_PIC = os. getenv("HELP_PIC", "https://graph.org/file/479fdc2efe0cd9769f3dc.jpg")
+    START_PIC = os. getenv("START_PIC", "https://graph.org/file/28d473d129643123bc425.jpg")
     COMMAND_HANDLER = os. getenv("COMMAND_HANDLER", "!")
     ALLOW_PORN = os.getenv("ALLOW_PORN", True) # CHANGE 'True' TO 'False' IF YOU WANNA DISABLE PORN
