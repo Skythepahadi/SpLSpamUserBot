@@ -1,12 +1,12 @@
 import os
 
 class API:
-    API_ID = int(os.getenv("API_ID", "28682883"))
-    API_HASH = os.getenv("API_HASH", "f965ac4aeca63bdd81f0b1c284294efe")
+    API_ID = int(os.getenv("API_ID", ""))
+    API_HASH = os.getenv("API_HASH", "")
 
 class TOKENS:
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6185038239:AAGxR9oPVc-s4pVv8AhZyKB1A5i0834GHug")
-    STRING_SESSION = os.getenv("STRING_SESSION", "BQG1qoMAPqGF30AGbzwqEp07lcYoBkOhzQ9Aafo08BsjyvkJCm1MjYUOTbH2wAwwZ8AVEFobMjAuOLjVoe3pf7UEswiLSVW3IKiExAUqhAzOK3ViQ1ux5A9AJ-pAve_q636fGJGYVDfLTmRCUlyB9_XpfvXDeiaTtQP0nmeJrNvZLFKmEG6Emr8m4Mb_ZpedwITACGzZKQ_MZWNGhIjuCCXfiivB1X-12CFdMHG3TIbktkUvm2ckpICy3a4cBoMT0jppGJ7uVVHgNofG-iRsRUYFwlzOSSn6j9QbMmPIZzCdBrIR_1x-dWiQ6hyZ2uZKj_fOZ_-8I-yvSmPoEjmsZcUdqoiiYwAAAAFRKo54AA"
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+    STRING_SESSION = os.getenv("STRING_SESSION", ""
     STRING_SESSION_3 = os.getenv("STRING_SESSION_3", "")
     STRING_SESSION_4 = os.getenv("STRING_SESSION_4", "")
     STRING_SESSION_5 = os.getenv("STRING_SESSION_5", "")
@@ -17,10 +17,10 @@ class TOKENS:
     STRING_SESSION_10 = os.getenv("STRING_SESSION_10", "")
 
 class DATABASE:
-    MONGO_DB_URL = os.getenv("MONGO_DB_URL", "mongodb+srv://skypahadi:prabhatchamoli41@cluster0.aunjres.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_DB_URL = os.getenv("MONGO_DB_URL", "")
 
 class DEV:
-    OWNER_ID = int(os.getenv("OWNER_ID", "5656710776"))
+    OWNER_ID = int(os.getenv("OWNER_ID", ""))
     
     # DONT EDIT THIS 
     SUDO_USERS = [] 
